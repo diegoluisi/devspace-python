@@ -1,0 +1,4 @@
+.devspace/
+
+# Ignore DevSpace cache and log folder
+.devspace/
