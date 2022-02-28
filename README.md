@@ -41,10 +41,35 @@ devspace use namespace hello-python
 
 ```bash
 devspace dev
+
+  ____              ____
+  |  _ \  _____   __/ ___| _ __   __ _  ___ ___
+  | | | |/ _ \ \ / /\___ \| '_ \ / _` |/ __/ _ \
+  | |_| |  __/\ V /  ___) | |_) | (_| | (_|  __/
+  |____/ \___| \_/  |____/| .__/ \__,_|\___\___|
+                          |_|
+
+Welcome to your development container!
+
+This is how you can work with it:
+- Run `python main.py` to build the application
+- Files will be synchronized between your local machine and this container
+- Some ports will be forwarded, so you can access this container on your local machine via http://localhost:8080
+
 ```
 
-After the container start please run 
+### After the container start please run 
 
 ```bash 
 python main.py
+```
+### 
+
+```bash
+curl http://localhost/
+Hello World!
+```
+### DevSpace UI
+```
+http://localhost:8090
 ```
