@@ -5,8 +5,6 @@
 
 DevSpace is an open-source developer tool for Kubernetes that lets you develop and deploy cloud-native software faster
 
-[GitHub](https://github.com/diegoluisi/devspace-python)
-
 ### 💡 Why DevSpace
 - Streamlined Workflow
 - Faster Iterations
@@ -34,6 +32,13 @@ DevSpace is an open-source developer tool for Kubernetes that lets you develop a
 ```bash
 curl -s https://raw.githubusercontent.com/k3d-io/k3d/main/install.sh | bash
 ```
+
+### [Clone this project](https://github.com/diegoluisi/devspace-python)
+
+```bash
+git clone git@github.com:diegoluisi/devspace-python.git
+```
+
 
 ### Create Cluster and NameSpace
 
