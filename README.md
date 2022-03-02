@@ -17,18 +17,19 @@ DevSpace is an open-source developer tool for Kubernetes that lets you develop a
 | devspace | 5.18.4  |
 |   k3d    | v5.3.0  |
 
-### [kubectl](https://kubernetes.io/)
+### <img align="left" alt="Kubernetes" width="26px" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/kubernetes/kubernetes.png" /> [kubectl](https://kubernetes.io/)
 
 - [Install kubectl on Linux](https://kubernetes.io/docs/tasks/tools/install-kubectl-linux/)
 - [Install kubectl on macOS](https://kubernetes.io/docs/tasks/tools/install-kubectl-macos)
 - [Install kubectl on Windows](https://kubernetes.io/docs/tasks/tools/install-kubectl-windows)
 
-### <img align="left" alt="GitHub" width="26px" src="https://avatars.githubusercontent.com/u/17330169?s=200&v=4" /> [DevSpace](https://devspace.sh/)
+### <img align="left" alt="DevSpace" width="26px" src="https://avatars.githubusercontent.com/u/17330169?s=200&v=4" /> [DevSpace](https://devspace.sh/)
 
 
 - [Install DevSpace](https://devspace.sh/cli/docs/getting-started/installation)
 
-### [k3d](https://k3d.io/)
+### <img align="left" alt="K3D" width="26px" src="https://k3d.io/v5.3.0/static/img/k3d_logo_black_blue.svg" /> [k3d](https://k3d.io/)
+
 
 ```bash
 curl -s https://raw.githubusercontent.com/k3d-io/k3d/main/install.sh | bash
