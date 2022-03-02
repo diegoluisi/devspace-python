@@ -1,8 +1,21 @@
-# 🐍 DevSpace Python
+# 🐍 **DevSpace Python**
 
 [![Python application](https://github.com/diegoluisi/hello-python/actions/workflows/python-app.yml/badge.svg)](https://github.com/diegoluisi/hello-python/actions/workflows/python-app.yml)
 [![Docker Image CI](https://github.com/diegoluisi/devspace-python/actions/workflows/docker-image.yml/badge.svg)](https://github.com/diegoluisi/devspace-python/actions/workflows/docker-image.yml)
 [![CodeQL](https://github.com/diegoluisi/devspace-python/actions/workflows/codeql-analysis.yml/badge.svg)](https://github.com/diegoluisi/devspace-python/actions/workflows/codeql-analysis.yml)
+
+## ***DevSpace***
+---
+### 💡 **Why DevSpace?**
+
+
+
+- Streamlined Workflow
+- Faster Iterations
+- Feature-Rich UI
+
+### **What is DevSpace?**
+
 
 DevSpace is an open-source developer tool for Kubernetes that lets you develop and deploy cloud-native software faster.
 
@@ -10,11 +23,17 @@ DevSpace allows you to develop applications directly inside a Kubernetes cluster
 
 The biggest advantages of developing directly inside Kubernetes is that your dev environment will be very similar to your production environment and you can have much greater confidence that everything will work in production when shipping new features.
 
-### 💡 Why DevSpace
-- Streamlined Workflow
-- Faster Iterations
-- Feature-Rich UI
-### 🛠️ Requirements
+
+## **K3D**
+---
+### **What is k3d?**
+
+
+k3d is a lightweight wrapper to run k3s (Rancher Lab’s minimal Kubernetes distribution) in docker.
+
+k3d makes it very easy to create single- and multi-node k3s clusters in docker, e.g. for local development on Kubernetes.
+
+### 🛠️ **Requirements**
 
 |  Tools   | Version |
 | :------: | :-----: |
@@ -22,30 +41,27 @@ The biggest advantages of developing directly inside Kubernetes is that your dev
 | devspace | 5.18.4  |
 |   k3d    | v5.3.0  |
 
-### <img align="left" alt="Kubernetes" width="26px" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/kubernetes/kubernetes.png" /> [kubectl](https://kubernetes.io/)
+### [*kubectl*](https://kubernetes.io/)
 
 - [Install kubectl on Linux](https://kubernetes.io/docs/tasks/tools/install-kubectl-linux/)
 - [Install kubectl on macOS](https://kubernetes.io/docs/tasks/tools/install-kubectl-macos)
 - [Install kubectl on Windows](https://kubernetes.io/docs/tasks/tools/install-kubectl-windows)
 
-### <img align="left" alt="DevSpace" width="26px" src="https://avatars.githubusercontent.com/u/17330169?s=200&v=4" /> [DevSpace](https://devspace.sh/)
-
+### [*DevSpace*](https://devspace.sh/)
 
 - [Install DevSpace](https://devspace.sh/cli/docs/getting-started/installation)
 
-### <img align="left" alt="K3D" width="26px" src="https://k3d.io/v5.3.0/static/img/k3d_logo_black_blue.svg" /> [k3d](https://k3d.io/)
-
+#### [*K3D*](https://k3d.io/)
 
 ```bash
 curl -s https://raw.githubusercontent.com/k3d-io/k3d/main/install.sh | bash
 ```
 
-### <img align="left" alt="GitHub" width="26px" src="https://raw.githubusercontent.com/github/explore/78df643247d429f6cc873026c0622819ad797942/topics/github/github.png" /> Clone this project
+### Clone this project
 
 ```bash
 git clone git@github.com:diegoluisi/devspace-python.git
 ```
-
 
 ### Create Cluster and NameSpace
 
@@ -83,28 +99,32 @@ This is how you can work with it:
 
 #### After the container start,  start application
 
-```bash 
+```bash
 python main.py
 ```
-#### Check the application status 
+
+#### Check the application status
 
 ```bash
 curl http://localhost/
 Hello World!
 ```
-#### Debugging 
+
+#### Debugging
+
 In your favorite editor edit the main.py file and save, stop and start application.
 
 ```bash
 CTRL+C
 python main.py
-``` 
+```
 
 ### 📈 [DevSpace UI](http://localhost:8090)
 
 ![DevSpace UI](.images/devspace-ui.png)
 
 ### ♻️ Purge
+
 ```bash
 devspace purge
 ```
