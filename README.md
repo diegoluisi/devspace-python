@@ -4,7 +4,7 @@
 [![Docker Image CI](https://github.com/diegoluisi/devspace-python/actions/workflows/docker-image.yml/badge.svg)](https://github.com/diegoluisi/devspace-python/actions/workflows/docker-image.yml)
 [![CodeQL](https://github.com/diegoluisi/devspace-python/actions/workflows/codeql-analysis.yml/badge.svg)](https://github.com/diegoluisi/devspace-python/actions/workflows/codeql-analysis.yml)
 
-## ***DevSpace***
+## [**DevSpace**](https://devspace.sh/)
 
 ### 💡 **Why DevSpace?**
 
@@ -24,7 +24,7 @@ DevSpace allows you to develop applications directly inside a Kubernetes cluster
 The biggest advantages of developing directly inside Kubernetes is that your dev environment will be very similar to your production environment and you can have much greater confidence that everything will work in production when shipping new features.
 
 
-## **K3D**
+## [**K3D**](https://k3d.io/)
 
 ### **What is k3d?**
 
@@ -47,11 +47,11 @@ k3d makes it very easy to create single- and multi-node k3s clusters in docker, 
 - [Install kubectl on macOS](https://kubernetes.io/docs/tasks/tools/install-kubectl-macos)
 - [Install kubectl on Windows](https://kubernetes.io/docs/tasks/tools/install-kubectl-windows)
 
-### [*DevSpace*](https://devspace.sh/)
+### **Install DevSpace**
 
 - [Install DevSpace](https://devspace.sh/cli/docs/getting-started/installation)
 
-#### [*K3D*](https://k3d.io/)
+### **Install K3D**
 
 ```bash
 curl -s https://raw.githubusercontent.com/k3d-io/k3d/main/install.sh | bash
