@@ -2,6 +2,7 @@
 
 [![Python application](https://github.com/diegoluisi/hello-python/actions/workflows/python-app.yml/badge.svg)](https://github.com/diegoluisi/hello-python/actions/workflows/python-app.yml)
 [![Docker Image CI](https://github.com/diegoluisi/devspace-python/actions/workflows/docker-image.yml/badge.svg)](https://github.com/diegoluisi/devspace-python/actions/workflows/docker-image.yml)
+[![CodeQL](https://github.com/diegoluisi/devspace-python/actions/workflows/codeql-analysis.yml/badge.svg)](https://github.com/diegoluisi/devspace-python/actions/workflows/codeql-analysis.yml)
 
 DevSpace is an open-source developer tool for Kubernetes that lets you develop and deploy cloud-native software faster
 
