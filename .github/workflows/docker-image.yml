@@ -34,7 +34,7 @@ jobs:
           context: ./
           file: ./Dockerfile
           push: true
-          tags: ${{ secrets.DOCKER_HUB_USERNAME }}/lab-python-consumer:latest
+          tags: ${{ secrets.DOCKER_HUB_USERNAME }}/hello-python:latest
 
       - name: Image digest
         run: echo ${{ steps.docker_build.outputs.digest }}
