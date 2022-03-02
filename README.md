@@ -5,7 +5,7 @@
 [![CodeQL](https://github.com/diegoluisi/devspace-python/actions/workflows/codeql-analysis.yml/badge.svg)](https://github.com/diegoluisi/devspace-python/actions/workflows/codeql-analysis.yml)
 
 ## ***DevSpace***
----
+
 ### 💡 **Why DevSpace?**
 
 
@@ -25,7 +25,7 @@ The biggest advantages of developing directly inside Kubernetes is that your dev
 
 
 ## **K3D**
----
+
 ### **What is k3d?**
 
 
