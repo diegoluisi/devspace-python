@@ -33,7 +33,7 @@ DevSpace is an open-source developer tool for Kubernetes that lets you develop a
 curl -s https://raw.githubusercontent.com/k3d-io/k3d/main/install.sh | bash
 ```
 
-### [Clone this project](https://github.com/diegoluisi/devspace-python)
+### <img align="left" alt="GitHub" width="26px" src="https://raw.githubusercontent.com/github/explore/78df643247d429f6cc873026c0622819ad797942/topics/github/github.png" /> Clone this project
 
 ```bash
 git clone git@github.com:diegoluisi/devspace-python.git
