@@ -56,27 +56,27 @@ k3d makes it very easy to create single- and multi-node k3s clusters in docker, 
 ```bash
 curl -s https://raw.githubusercontent.com/k3d-io/k3d/main/install.sh | bash
 ```
-
-### Clone this project
+## 🚀 **Let's Start**
+### *Clone the project*
 
 ```bash
 git clone git@github.com:diegoluisi/devspace-python.git
 ```
 
-### Create Cluster and NameSpace
+### *Create Cluster and NameSpace*
 
 ```bash
 k3d cluster create --config k3d.yaml
 kubectl create namespace hello-python
 ```
 
-### Configure DevSpace
+### *Configure DevSpace*
 
 ```bash
 devspace use namespace hello-python
 ```
 
-### 🌎 Start Development
+## 🌎 **Start Development**
 
 ```bash
 devspace dev
@@ -97,20 +97,20 @@ This is how you can work with it:
 
 ```
 
-#### After the container start,  start application
+### *Start application*
 
 ```bash
 python main.py
 ```
 
-#### Check the application status
+### *Check the application status*
 
 ```bash
 curl http://localhost/
 Hello World!
 ```
 
-#### Debugging
+### *Debugging*
 
 In your favorite editor edit the main.py file and save, stop and start application.
 
@@ -119,11 +119,11 @@ CTRL+C
 python main.py
 ```
 
-### 📈 [DevSpace UI](http://localhost:8090)
+## 📈 **DevSpace UI**
 
 ![DevSpace UI](.images/devspace-ui.png)
 
-### ♻️ Purge
+## ♻️ **Purge**
 
 ```bash
 devspace purge
