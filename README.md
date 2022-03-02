@@ -1,8 +1,13 @@
-# 🐍 Hello Python
+# 🐍 DevSpace Python
 
 [![Python application](https://github.com/diegoluisi/hello-python/actions/workflows/python-app.yml/badge.svg)](https://github.com/diegoluisi/hello-python/actions/workflows/python-app.yml)
 
 DevSpace is an open-source developer tool for Kubernetes that lets you develop and deploy cloud-native software faster
+
+### Why DevSpace
+- Streamlined Workflow
+- Faster Iterations
+- Feature-Rich UI
 ### Requirements
 
 |  Tools   | Version |
@@ -75,4 +80,9 @@ Hello World!
 ### DevSpace UI
 ```
 http://localhost:8090
+```
+
+### Purge
+```bash
+devspace purge
 ```
