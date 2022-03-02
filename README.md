@@ -77,10 +77,9 @@ python main.py
 curl http://localhost/
 Hello World!
 ```
-### DevSpace UI
-```
-http://localhost:8090
-```
+### [DevSpace UI](http://localhost:8090)
+
+![DevSpace UI](.images/devspace-ui.png)
 
 ### Purge
 ```bash

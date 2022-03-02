@@ -16,6 +16,9 @@ deployments:
 
 # `dev` only applies when you run `devspace dev`
 dev:
+  #autoReload:
+  #  paths:
+  #  - ./main.py
   # `dev.ports` specifies all ports that should be forwarded while `devspace dev` is running
   # Port-forwarding lets you access your application via localhost on your local machine
   ports:
