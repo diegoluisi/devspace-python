@@ -4,11 +4,11 @@
 
 DevSpace is an open-source developer tool for Kubernetes that lets you develop and deploy cloud-native software faster
 
-### Why DevSpace
+### 💡 Why DevSpace
 - Streamlined Workflow
 - Faster Iterations
 - Feature-Rich UI
-### Requirements
+### 🛠️ Requirements
 
 |  Tools   | Version |
 | :------: | :-----: |
@@ -62,7 +62,7 @@ Welcome to your development container!
 This is how you can work with it:
 - Run `python main.py` to build the application
 - Files will be synchronized between your local machine and this container
-- Some ports will be forwarded, so you can access this container on your local machine via http://localhost:8080
+- Some ports will be forwarded, so you can access this container on your local machine via http://localhost
 
 ```
 
@@ -83,7 +83,7 @@ Hello World!
 
 ![DevSpace UI](.images/devspace-ui.png)
 
-### Purge
+### ♻️ Purge
 ```bash
 devspace purge
 ```
