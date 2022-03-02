@@ -23,7 +23,8 @@ DevSpace is an open-source developer tool for Kubernetes that lets you develop a
 - [Install kubectl on macOS](https://kubernetes.io/docs/tasks/tools/install-kubectl-macos)
 - [Install kubectl on Windows](https://kubernetes.io/docs/tasks/tools/install-kubectl-windows)
 
-### [DevSpace](https://devspace.sh/)
+### <img align="left" alt="GitHub" width="26px" src="https://avatars.githubusercontent.com/u/17330169?s=200&v=4" /> [DevSpace](https://devspace.sh/)
+
 
 - [Install DevSpace](https://devspace.sh/cli/docs/getting-started/installation)
 
