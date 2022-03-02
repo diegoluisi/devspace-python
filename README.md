@@ -77,6 +77,8 @@ python main.py
 curl http://localhost/
 Hello World!
 ```
+![Hello World!](.images/hello-world.png)
+
 ### [DevSpace UI](http://localhost:8090)
 
 ![DevSpace UI](.images/devspace-ui.png)
