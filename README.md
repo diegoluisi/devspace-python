@@ -4,6 +4,9 @@
 [![Docker Image CI](https://github.com/diegoluisi/devspace-python/actions/workflows/docker-image.yml/badge.svg)](https://github.com/diegoluisi/devspace-python/actions/workflows/docker-image.yml)
 [![CodeQL](https://github.com/diegoluisi/devspace-python/actions/workflows/codeql-analysis.yml/badge.svg)](https://github.com/diegoluisi/devspace-python/actions/workflows/codeql-analysis.yml)
 
+## ✅ **Goals**
+ - Enabling Cloud Native Software Development
+
 ## [**DevSpace**](https://devspace.sh/)
 
 ### 💡 **Why DevSpace?**
@@ -119,7 +122,8 @@ CTRL+C
 python main.py
 ```
 
-## 📈 **DevSpace UI**
+## 📈 **DevSpace UI**  
+<br/>
 
 ![DevSpace UI](.images/devspace-ui.png)
 
