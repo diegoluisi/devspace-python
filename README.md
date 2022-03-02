@@ -1,6 +1,7 @@
 # 🐍 DevSpace Python
 
 [![Python application](https://github.com/diegoluisi/hello-python/actions/workflows/python-app.yml/badge.svg)](https://github.com/diegoluisi/hello-python/actions/workflows/python-app.yml)
+[![Docker Image CI](https://github.com/diegoluisi/devspace-python/actions/workflows/docker-image.yml/badge.svg)](https://github.com/diegoluisi/devspace-python/actions/workflows/docker-image.yml)
 
 DevSpace is an open-source developer tool for Kubernetes that lets you develop and deploy cloud-native software faster
 
@@ -45,7 +46,7 @@ kubectl create namespace hello-python
 devspace use namespace hello-python
 ```
 
-### Start Development
+### 🌎 Start Development
 
 ```bash
 devspace dev
@@ -66,20 +67,26 @@ This is how you can work with it:
 
 ```
 
-### After the container start please run 
+#### After the container start,  start application
 
 ```bash 
 python main.py
 ```
-### 
+#### Check the application status 
 
 ```bash
 curl http://localhost/
 Hello World!
 ```
-![Hello World!](.images/hello-world.png)
+#### Debugging 
+In your favorite editor edit the main.py file and save, stop and start application.
 
-### [DevSpace UI](http://localhost:8090)
+```bash
+CTRL+C
+python main.py
+``` 
+
+### 📈 [DevSpace UI](http://localhost:8090)
 
 ![DevSpace UI](.images/devspace-ui.png)
 
